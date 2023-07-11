@@ -1,4 +1,4 @@
 matplotlib
 seaborn
 wordcloud
-sklearn.metrics.pairwise
+scikit-learn
