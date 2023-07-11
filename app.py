@@ -25,6 +25,7 @@ st.markdown(
     <style>
     .big-font {
         font-size:20px !important;
+        font-family: 'Roboto','Cascadia Code', monospace;
     }
     </style>
     """,
@@ -34,7 +35,7 @@ st.markdown(
 
 
 def main():
-    st.markdown("# Your Customized Music Recommender")
+    st.markdown("# BeatBuddy")
     st.markdown("Welcome to this music recommender! \
                 \n You can search for a song and get recommendations based on the song you searched for. \
                 \n You can also customize the recommendations by selecting the features you care about. Enjoy!")
