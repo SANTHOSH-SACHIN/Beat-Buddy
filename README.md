@@ -23,7 +23,7 @@ pip install streamlit
 4. Run the Streamlit app by executing the following command:
 
 ```
-streamlit run beatbuddy_app.py
+streamlit run app.py
 ```
 
 
@@ -56,7 +56,7 @@ You can try BeatBuddy by following these steps:
 2. Clone the BeatBuddy repository from GitHub.
 3. Navigate to the project directory.
 4. Install the necessary dependencies using `pip`.
-5. Run the Streamlit app with the command `streamlit run beatbuddy_app.py`.
+5. Run the Streamlit app with the command `streamlit run app.py`.
 6. Open the provided local URL in your web browser.
 7. Start searching for songs and getting recommendations.
 
