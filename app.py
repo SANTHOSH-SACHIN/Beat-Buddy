@@ -36,9 +36,9 @@ st.markdown(
 
 def main():
     st.markdown("# BeatBuddy")
-    st.markdown("Welcome to this music recommender! \
-                \n You can search for a song and get recommendations based on the song you searched for. \
-                \n You can also customize the recommendations by selecting the features you care about. Enjoy!")
+    st.markdown("Welcome to you personalized music recommender! \
+                \n Search for a song and get recommendations. \
+                \n Customize the recommendations by choosing the factors you care about. Enjoy!")
 
     # add selectbox for selecting the features
     st.sidebar.markdown("### Select Features")
@@ -58,7 +58,7 @@ def main():
     if year != '':
         year = int(year)
 
-    # exmaples of song name and year:
+    # examples of song name and year:
     # song_name = 'YOUR HAND IN MINE'
     # year = 2003
 
