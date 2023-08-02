@@ -1,6 +1,6 @@
 # BeatBuddy
 
-Welcome to BeatBuddy, a customized music recommender app!
+Welcome to BeatBuddy, a customized music recommender app! Try out : https://beat-buddy.streamlit.app/
 
 ## Features
 
