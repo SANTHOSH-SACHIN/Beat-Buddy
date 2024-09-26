@@ -8,7 +8,7 @@ import streamlit as st
 from packages.search_song import search_song
 from packages.run_recommender import get_feature_vector, show_similar_songs
 # load data
-dat = pd.read_csv('./data/processed/dat_for_recommender.csv')
+dat = pd.read_csv('Beat-Buddy/data/processed/dat_for_recommender.csv')
 
 song_features_normalized = ['valence', 'acousticness', 'danceability', 'energy', 'instrumentalness', 'liveness', 'speechiness']
 song_features_not_normalized = ['duration_ms', 'key', 'loudness', 'mode', 'tempo']
